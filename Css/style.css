@@ -1,0 +1,77 @@
+li {
+    list-style-type: disc;
+}
+
+.fans {
+ text-align: center;
+ text-decoration: underline;
+ text-decoration-style: double ;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: brown;
+}
+
+.bag {
+color: rgb(43, 72, 202);
+}
+
+.mainHead {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+.imgReal{
+    margin-left: 20px;
+}
+
+.p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    line-height: 1.8em;
+    justify-content: center;
+}
+ 
+h2{
+    text-align: center;
+ text-decoration: underline;
+ text-decoration-style: double ;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: brown;
+line-height: 5em;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+.years {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    color: brown;
+    line-height: 3em;
+    
+}
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+
+}
+.imgReal{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+    line-height: 20px;
+    margin-left: 20px;
+
+    color: brown;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+
