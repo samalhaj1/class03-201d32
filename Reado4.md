@@ -97,6 +97,85 @@ element as possible.
 the containing element will
 flow around the element that is
 floated.
+ 
+ 
+## Basics Java Script Instructions:
+ 
+ A script is made up of a series of statements. Each
+statement is like a step in a recipe.
+ 
+Scripts contain very precise instructions. For example,
+you might specify that a value must be remembered
+before creating a calculation using that value.
+ 
+Variables are used to temporarily store pieces of
+information used in the script.
+ 
+Arrays are special types of variables that store more
+than one piece of related information.
+ 
+JavaScript distinguishes between numbers (0-9),
+strings (text), and Boolean values (true or false).
+ 
+Expressions evaluate into a single value.
+ 
+Expressions rely on operators to calculate a value. 
+ 
+ 
+### FUNCTIONS & OBJECTS BUILT-IN
+ 
+**function**
+ 
+ Functions let you group a series of statements together to perform a
+specific task. If different parts of a script repeat the same task, you can
+reuse the function (rather than repeating the same set of statements). 
+ 
+ **Declaring a function**
+
+ ![img](https://s3.amazonaws.com/codecademy-content/courses/learn-javascript-functions/Diagram/declaration.svg )
+ 
+ **Calling function**
+ 
+ ![img ]( https://image.slidesharecdn.com/functions-140127130612-phpapp02/95/linkedin-tbc-javascript-100-functions-11-638.jpg?cb=1390844459 )
+ 
+ #### 6 Reasons for Pair Programming
+ 
+ 
+ 
+ 
+1. Greater efficiency
+ 
+It is a common misconception that pair programming takes a lot longer and is less efficient. In reality, when two people focus on the same code base, it is easier to catch mistakes in the making
+ 
+ 2. Engaged collaboration
+ 
+When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone.
+ 
+ 3. Learning from fellow 
+ 
+Everyone has a different approach to problem solving; working with a teammate can expose developers to techniques they otherwise would not have thought of
+ 
+ 4. Social skills
+ 
+Pair programming is great for improving social skills. When working with someone who has a different coding style, communication is key. This can become more difficult when two programmers have different personalities.
+ 
+ 5. Job interview readiness
+ 
+A common step in many interview processes involves pair programming between a current employee and an applicant, either in person or through a shared screen.
+ 
+ 6. Work environment readiness
+ 
+Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground running at a new job, with one less hurdle to overcome.
+
+ 
+
+ **Why pair program?** 
+While learning to code, developers likely study several programming languages. Similar to a foreign language class, there are four fundamental skills that help anyone learn a new language: Listening: hearing and interpreting the vocabulary Speaking: using the correct words to communicate an idea Reading: understanding what written language intends to convey Writing: producing from scratch a meaningful
+ 
+ 
+ 
+ 
+ 
   
   
   
