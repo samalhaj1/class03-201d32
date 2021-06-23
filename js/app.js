@@ -1,7 +1,9 @@
 'use strict';
+let score =0;
 alert('Welcome to my page')
-function one(){
 let username = prompt('What is your name?');
+function one(){
+
 let anothername = '';
 if (username) {
     alert('hello ' + username)
@@ -21,6 +23,7 @@ switch (username1.toLowerCase()){
     case "yes" :
         case "y" :
         alert('welcome to my page ');
+        score++;
         console.log('welcome to my page ');
         break;
         case "no" :
@@ -47,6 +50,7 @@ let username3 = prompt('Is Real Madrid the first clup which tooke 3 Champions le
 console.log(username3);
 if (username3 == 'yes'){
     alert('go a head');
+    score++;
 }
 while (username3 != 'yes') {
 
@@ -66,6 +70,7 @@ let userchamp = prompt(' how many champions league cup does real madrid won?');
 if ( userchamp == 13)
 {
     alert ( 'correct');
+    score++;
     break;
 }
 else if ( userchamp >= 17 ){
@@ -99,13 +104,16 @@ for (var i=0; i< 5 ;i++){
 
     let username6 = prompt(' name one of the years that Real Madrid won a champions leage cup?');
     if (username6 == rewards [0]){alert ('correct');
+    score++;
     break;
  }
 
  else if (username6 == rewards [1]){alert ('correct');
+ score++;
  break;
 }
 else if (username6 == rewards [2]){alert ('correct');
+score++;
 break;
 }
  if (maxtries == 1)
@@ -123,6 +131,8 @@ else {
 }
 }
 six();
+
+alert('Good Job ' + username + ' and your score is ' + score )
 
 
 
