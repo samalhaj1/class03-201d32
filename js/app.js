@@ -1,6 +1,6 @@
 'use strict';
 alert('Welcome to my page')
-
+function one(){
 let username = prompt('What is your name?');
 let anothername = '';
 if (username) {
@@ -10,31 +10,39 @@ if (username) {
 else if(!anothername){
     alert('please enter your name')
 }
+}
+one();
 
 alert('you have to answer these questions')
 
-
+function two(){
 let username1 = prompt('are you a fan of Real Madrid ?')
 switch (username1.toLowerCase()){
     case "yes" :
         case "y" :
-        alert('welcome to my page '+username);
+        alert('welcome to my page ');
         console.log('welcome to my page ');
         break;
         case "no" :
             case "n" :
-            alert('I am so sad '+ username);
+            alert('I am so sad ');
             console.log('I am so sad ');
             break;
 }
+}
+two();
 
+function three(){
 let username2 = prompt('is the main color of Real Madrid White ?');
 console.log(username2);
 while (username2 != 'yes'){
     // console.log(yes);
    username2 = prompt('your answer is wrong');
 }
+}
+three();
 
+function four(){
 let username3 = prompt('Is Real Madrid the first clup which tooke 3 Champions league in row?');
 console.log(username3);
 if (username3 == 'yes'){
@@ -47,10 +55,11 @@ username3 = prompt('your answer is wrong');
 
 
 }
+}  
+four();
 
-    
 
-
+function five(){
 let guess=0;
 while ( guess < 4) {
 let userchamp = prompt(' how many champions league cup does real madrid won?');
@@ -80,6 +89,10 @@ if ( guess == 4) {
 
 
 }
+}
+five();
+
+function six(){
  let maxtries = 5;
 let rewards = ['2017', '2018','2016'];
 for (var i=0; i< 5 ;i++){
@@ -108,6 +121,8 @@ else {
 
 
 }
+}
+six();
 
 
 
